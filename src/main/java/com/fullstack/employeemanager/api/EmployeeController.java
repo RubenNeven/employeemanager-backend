@@ -15,7 +15,7 @@ import static org.springframework.http.HttpStatus.CREATED;
 import static org.springframework.http.HttpStatus.OK;
 
 @RestController
-@CrossOrigin
+@CrossOrigin(origins = "https://employee-manager-example.netlify.app/")
 @RequestMapping("/employee")
 public class EmployeeController {
 
